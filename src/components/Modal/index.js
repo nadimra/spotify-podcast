@@ -31,7 +31,7 @@ export const Modal = ({showModal, setShowModal, currentProject}) => {
                         <ModelContentContainer>
                             {currentProject.video ? (
                             <ModalImg>
-                            <iframe width="400" height="350" src={currentProject.content} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="350" height="350" src={currentProject.content} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </ModalImg>
                             ):
                             <ModalImg>

@@ -40,7 +40,7 @@ export const ModalWrapper = styled.div`
     border-radius: 10px;
 
     @media screen and (max-width: 768px){
-        width: 450px;
+        width: 380px;
         height: 800px;
     }
     
@@ -57,7 +57,7 @@ export const ModalImg = styled.div`
     transform: translateY(-50%);
 
     @media screen and (max-width: 768px){
-        width: 400px;
+        width: 350px;
         margin-top: 20px;
     }
 `
@@ -90,7 +90,7 @@ export const ButtonWrapper = styled.div`
     height: 32px;
 
     @media screen and (max-width: 768px){
-        width: 450px;
+        width: 380px;
         height: 800px;
     }
 `
