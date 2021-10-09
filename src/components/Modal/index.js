@@ -26,8 +26,7 @@ export const Modal = ({showModal, setShowModal, currentProject}) => {
     return (
         <>
         {showModal ? (
-            <Background ref={modalRef} style={{opacity:1}} onClick={closeModal}>
-                <animated.div style={animation}>
+            <Background ref={modalRef} onClick={closeModal}>
                     <ModalWrapper>
                         <ModelContentContainer>
                             {currentProject.video ? (
@@ -52,7 +51,6 @@ export const Modal = ({showModal, setShowModal, currentProject}) => {
                         </ModelContentContainer>
 
                     </ModalWrapper>
-                </animated.div>
             </Background>
 
         ):null}
