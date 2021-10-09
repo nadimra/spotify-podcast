@@ -10,14 +10,10 @@ const Sidebar = ({isOpen, toggle}) => {
 
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to ="about" onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to ="discover" onClick={toggle}>Discover</SidebarLink>
-                    <SidebarLink to ="services" onClick={toggle}>Services</SidebarLink>
-                    <SidebarLink to ="signup" onClick={toggle}>Sign Up</SidebarLink>
+                    <SidebarLink to ="projects" onClick={toggle}>Projects</SidebarLink>
+                    <SidebarLink to ="contact" onClick={toggle}>Contact</SidebarLink>
                 </SidebarMenu>
-                <SideBtnWrap>
-                    <SidebarRoute to='/signin'>Sign In</SidebarRoute>
-                </SideBtnWrap>
+
             </SidebarWrapper>
         </SidebarContainer>
         

@@ -3,6 +3,7 @@ import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
+import CV from '../../images/cv.pdf'
 
 const Navbar = ({toggle}) => {
     const [scrollNav ,setScrollNav] = useState(false)
@@ -30,7 +31,7 @@ const Navbar = ({toggle}) => {
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome}>
-                        dolla
+                        Nadim Rahman
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars/>
@@ -38,21 +39,15 @@ const Navbar = ({toggle}) => {
 
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
+                            <NavLinks to='projects' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Discover</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Services</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign Up</NavLinks>
+                            <NavLinks to='contact' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
 
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                        <NavBtnLink to={CV} target="_blank" download>Download Resume</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

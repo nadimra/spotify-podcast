@@ -1,31 +1,30 @@
 export const homeObjOne = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
+    id: 'education',
+    lightBg: true,
+    lightText: false,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transctions without getting charged any fees.',
-    buttonLabel: 'Get Started',
+    topLine: ['University of Nottingham','Imperial College London'],
+    headline: ['BSc Computer Science','MSc Software Engineering'],
+    description: ['Achieved a First Class Honours with a final degree percentage of 84%.', 'Currently studying a masters in London.'],
     imgStart: false,
-    img: require('../../images/svg-1.svg').default,
+    img: require('../../images/svg-4.svg').default,
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 export const homeObjTwo = {
-    id: 'discover',
+    id: 'contact',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Unlimited Access',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transctions without getting charged any fees.',
-    buttonLabel: 'Learn More',
+    topLine: [''],
+    headline: ['Contact me'],
+    description: ['If you have any further questions, go ahead and email me at nadimrahman98@gmail.com'],
+    buttonLabel: ['Learn More'],
     imgStart: true,
-    img: require('../../images/svg-2.svg').default,
+    img: require('../../images/svg-5.svg').default,
     alt: 'Piggy',
     dark: false,
     primary: false,
@@ -33,7 +32,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'signup',
+    id: 'contact',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
