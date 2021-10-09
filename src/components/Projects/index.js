@@ -49,7 +49,7 @@ const Project = () => {
                     <BadgeList>
                         <ProjectBadge>Python</ProjectBadge>
                         <ProjectBadge>Cloud CI/CD</ProjectBadge>
-                        <ProjectBadge>AR.js</ProjectBadge>
+                        <ProjectBadge>AR</ProjectBadge>
                         <ProjectBadge>+5</ProjectBadge>
                     </BadgeList>   
 

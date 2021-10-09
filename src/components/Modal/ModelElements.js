@@ -76,6 +76,14 @@ export const ModalContent = styled.div`
     }
 
 
+    @media screen and (max-width: 768px){
+        p{
+            font-size: 12px;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+
+    }
 `
 
 export const Img = styled.img`
