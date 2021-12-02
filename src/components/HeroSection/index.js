@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video2.mp4'
+import ImgLogo from '../../images/illustration-logo.png'
+
 import { Button } from '../ButtonElement'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroSmall, HeroBtnWrapper, ArrowForward, ArrowRight, Img, ImgWrap } from './HeroElements'
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -12,25 +14,29 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted playsinline src={Video} disablePictureInPicture type='video/mp4'/>
             </HeroBg>
 
             <HeroContent>
-                <HeroH1>Hi, I'm Nad</HeroH1>
-                <HeroP>Welcome to my portfolio website!</HeroP>
+                <ImgWrap>
+                    <Img src={ImgLogo} alt={"Logo"}/>
+                </ImgWrap>
+                <HeroH1>Podcast: Why Spotify?</HeroH1>
+                <HeroP>Five reasons why I want to work for Spotify.</HeroP>
+                <HeroSmall>(Click the buttons to continue)</HeroSmall>
                 <HeroBtnWrapper>
                     <Button
-                    to='projects' 
+                    to='speaker' 
                     smooth={true} 
                     duration={500} 
                     spy={true} 
                     exact='true' 
-                    offset={-80}
+                    offset={0}
                     onMouseEnter={onHover} 
                     onMouseLeave={onHover}
                     primary="true"
+                    hasButton = "true"
                     dark="true">
-                        Continue {hover ? <ArrowForward /> :<ArrowRight/>}
+                        Play {hover ? <ArrowForward /> :<ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

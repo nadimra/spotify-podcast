@@ -1,4 +1,7 @@
+
+
 import styled from 'styled-components'
+import {MdKeyboardArrowRight,MdArrowForward} from 'react-icons/md'
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -93,3 +96,22 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
 `
+
+export const InfoBtnWrapper = styled.div`
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 150px;
+`
+
+export const ArrowForward = styled(MdArrowForward)`
+    margin-left: 8px;
+    font-size: 20px;
+`
+
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+    margin-left: 8px;
+    font-size: 20px;
+`
+

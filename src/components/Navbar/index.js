@@ -39,10 +39,25 @@ const Navbar = ({toggle}) => {
 
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='projects' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects</NavLinks>
+                            <NavLinks to='speaker' smooth={true} duration={500} spy={true} exact='true' offset={0}>Intro</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='contact' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contact</NavLinks>
+                            <NavLinks to='reason1' smooth={true} duration={500} spy={true} exact='true' offset={0}>#1</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='reason2' smooth={true} duration={500} spy={true} exact='true' offset={0}>#2</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='reason3' smooth={true} duration={500} spy={true} exact='true' offset={0}>#3</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='reason4' smooth={true} duration={500} spy={true} exact='true' offset={0}>#4</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='reason5' smooth={true} duration={500} spy={true} exact='true' offset={0}>#5</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='projects' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects</NavLinks>
                         </NavItem>
                     </NavMenu>
 

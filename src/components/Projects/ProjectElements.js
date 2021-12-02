@@ -88,3 +88,19 @@ export const ProjectBadge = styled.div`
     font-size: x-small;
     margin: 2px;
 `
+export const ProjectsSmall = styled.p`
+    margin-top: -40px;
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 14px;
+    text-align:center;
+    max-width: 600px;
+
+    @media screen and (max-width: 768px){
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 12px;
+    }
+`

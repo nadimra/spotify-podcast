@@ -33,6 +33,7 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: #232a34;
 `
 
 export const VideoBg = styled.video`
@@ -45,6 +46,7 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
     z-index: 3;
+    margin-top: -120px;
     max-width: 1200px;
     position: absolute;
     padding: 8px 24px;
@@ -83,6 +85,22 @@ export const HeroP = styled.p`
     }
 `
 
+export const HeroSmall = styled.p`
+    margin-top: 12px;
+    color: #fff;
+    font-size: 14px;
+    text-align:center;
+    max-width: 600px;
+
+    @media screen and (max-width: 768px){
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 12px;
+    }
+`
+
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
     display: flex;
@@ -98,4 +116,15 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
+`
+
+export const ImgWrap = styled.div`
+    max-width: 300px;
+    height: 100%;
+`
+
+export const Img = styled.img`
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 0;
 `

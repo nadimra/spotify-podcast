@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { ProjectsContainer,ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectsLanguages, ProjectBadge, BadgeList } from './ProjectElements'
+import { ProjectsContainer,ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP, ProjectsSmall, ProjectsLanguages, ProjectBadge, BadgeList } from './ProjectElements'
 import Icon1 from '../../images/icon1.svg'
 import Icon2 from '../../images/icon2.svg'
 import Icon3 from '../../images/icon3.svg'
@@ -42,6 +42,8 @@ const Project = () => {
         <Modal showModal={showModal} setShowModal={setShowModal} currentProject={state}/>
         <ProjectsContainer id="projects">
             <ProjectsH1>My Projects</ProjectsH1>
+            <ProjectsSmall>Click each tile to find out more.</ProjectsSmall>
+
             <ProjectsWrapper>
                 <ProjectsCard onClick={(e) => openModal(projectEight, e)}>
                     <ProjectsIcon src={Icon8}/>
