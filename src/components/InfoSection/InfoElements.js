@@ -98,7 +98,7 @@ export const Img = styled.img`
 `
 
 export const InfoBtnWrapper = styled.div`
-    margin-top: 32px;
+    margin-top: -50px;
     display: flex;
     flex-direction: column;
     align-items: left;
