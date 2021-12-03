@@ -61,7 +61,7 @@ export const reasonThreeContentObj = {
     lightTextDesc: false,
     topLine: [''],
     headline: ['The App.'],
-    description: [' "I have been an avid Spotify fan for years now. I use this app when travelling, working out, studying, partying or even to help me sleep. The app has revolutionised how we listen to music and podcasts since the app is able to harness the vast amount of data it has to create meaningful reccomendations that have so often allowed me to find great content. I want to be able to be able to have a say in the development of the most successful audio streaming and media service in the World." '],
+    description: [' "I\'ve been an avid Spotify fan for years now. I use this app when travelling, working out, studying, partying or even to help me sleep. The app has revolutionised how we listen to music and podcasts since it is able to harness the vast amount of data it has to create meaningful reccomendations that have so often allowed me to find great content. I want to be able to be able to have a say in the development of the most successful audio streaming and media service in the World." '],
     buttonLabel: ['Learn More'],
     imgStart: true,
     img: require('../../images/illustration-app.png').default,
