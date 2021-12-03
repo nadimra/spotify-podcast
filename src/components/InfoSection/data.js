@@ -118,7 +118,7 @@ export const wrappedObj = {
     lightTextDesc: false,
     topLine: [''],
     headline: ['#PODCASTWRAPPED.'],
-    description: [' "Aaanddd that comes to an end to this podcast, I hope you enjoyed it! All the illustrations used for this podcast (except for the vector images below) were drawn using ProCreate. This website was created using React, CSS, and Javascript. If you want to learn more about the projects I have undertaken, feel free to click/scroll below :) " '],
+    description: [' "Aaanddd that comes to an end to this podcast, I hope you enjoyed it! All the illustrations used for this podcast (except for the vector images in the project section) were drawn using ProCreate. This website was created using React, CSS, and Javascript. If you want to learn more about the projects I have undertaken, feel free to click/scroll below :) " '],
     buttonLabel: ['Learn More'],
     imgStart: true,
     img: require('../../images/illustration-wrapped.png').default,
